@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Properties in CSS</title>
+    <link rel="stylesheet" href="Resources/style.css">
+  </head>
+  <body>
+	<h1>INTRODUCTION TO STYLING YOUR WEBPAGE <br>
+        Properties in CSS</h1>
+    <div>
+        <h2>What is a Property?</h2>
+        <p>In CSS, properties are used to assign a characteristic or behavoir to a targetted HTML element.</p>
+            <h2>How Do We Use Properites?:</h2>
+            <p>We can target a specific element by creating a ruleset in a css document that is linked to our HTML file.<br>
+                Inside this ruleset, we can list any number of properties (there are more than 200!) to style the element in question.<br>
+                As with most things, an example here might help:<br>
 
+                <span class="example"> p {<br>
+                    color: orange;<br>
+                    font-family: Arial;<br>
+                }</span><br>
+
+                The above rule-set uses the <a class="property">color</a>and <a class="property">font-family</a> properties to style all paragraph elements to appear in orange Arial font. 
+        </p>
+    </div>
+  </body>
+</html>
